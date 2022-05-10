@@ -369,8 +369,8 @@ Canvas:
   m_GameObject: {fileID: 721310044}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 0}
+  m_RenderMode: 1
+  m_Camera: {fileID: 9974757}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -476,6 +476,38 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 721310048}
     m_Modifications:
+    - target: {fileID: 3629487817357283072, guid: 34c6d6e67417d98489ea9138c42bf9fa, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3629487817357283072, guid: 34c6d6e67417d98489ea9138c42bf9fa, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3629487817357283072, guid: 34c6d6e67417d98489ea9138c42bf9fa, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 5931921265551201821}
+    - target: {fileID: 3629487817357283072, guid: 34c6d6e67417d98489ea9138c42bf9fa, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: HandleLeftRightButtons
+      objectReference: {fileID: 0}
+    - target: {fileID: 3629487817357283072, guid: 34c6d6e67417d98489ea9138c42bf9fa, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: DynamicPanelHandler, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3629487817357283072, guid: 34c6d6e67417d98489ea9138c42bf9fa, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3629487817357283072, guid: 34c6d6e67417d98489ea9138c42bf9fa, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_BoolArgument
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3629487817357283072, guid: 34c6d6e67417d98489ea9138c42bf9fa, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 5008674394133254592, guid: 34c6d6e67417d98489ea9138c42bf9fa, type: 3}
       propertyPath: m_Name
       value: DynamicPanel
@@ -571,3 +603,14 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 7325737888247570151, guid: 34c6d6e67417d98489ea9138c42bf9fa, type: 3}
   m_PrefabInstance: {fileID: 5931921265551201819}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &5931921265551201821 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3361505638243096951, guid: 34c6d6e67417d98489ea9138c42bf9fa, type: 3}
+  m_PrefabInstance: {fileID: 5931921265551201819}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc496b0f68e499948add810347271df5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
