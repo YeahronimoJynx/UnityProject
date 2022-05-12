@@ -281,7 +281,6 @@ GameObject:
   - component: {fileID: 1468077399558229383}
   - component: {fileID: 7751440175390270646}
   - component: {fileID: 3361505638243096951}
-  - component: {fileID: 2709799118048222221}
   m_Layer: 5
   m_Name: DynamicPanel
   m_TagString: Untagged
@@ -362,18 +361,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   saveObj: {fileID: 7742691401283407563, guid: 868d0962c4fb3284a925601e6a31a794, type: 3}
---- !u!114 &2709799118048222221
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5008674394133254592}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cad9e420df2ada14c812e6b61008a817, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &5204845119669021889
 GameObject:
   m_ObjectHideFlags: 0
